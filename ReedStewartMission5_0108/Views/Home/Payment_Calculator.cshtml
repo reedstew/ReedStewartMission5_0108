@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Payment Calculator";
+}
+<h1 class="display-2" style="text-align: center; font-size: 60px; font-family: 'Great Vibes', cursive;">@ViewData["Title"]</h1>
+<br />
+<br />
+<div class="container" style="padding: unset;">
+    <div class="image-container" style="">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vUlqD8ESnlk?si=0OUNUK1nxRHcokrd?&autoplay=1&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay=; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p style="text-align: center;">A little demo of what you could be doing with just a couple sessions!</p>
+    </div>
+    <br />
+    <br />
+    <div class="text-container">
+        <p style="font-family:'Global Serif'; font-size:36px; text-align:center">Hourly Rate: $50</p>
+        <br />
+        <label style="text-align: center"for="hours">Number of Hours:</label>
+        <input style="text-align: center" type="number" id="hours" min="1" step="1">
+        <br>
+        <br>
+
+        <button style="text-align: center" id="calculate">Calculate</button>
+        <div class="text-container" id="result-box">
+            <p id="result"></p>
+        </div>
+        
+    </div>
+</div>
